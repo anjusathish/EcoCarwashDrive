@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccesoriesCell" rowHeight="196" id="KGk-i7-Jjw" customClass="AccesoriesCell" customModule="Eco_carwash_Drive" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="488" height="196"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="488" height="196"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBX-5i-bnQ" customClass="CTView" customModule="Eco_carwash_Drive" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="10" width="488" height="134"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pX8-bJ-hUm">
+                                <rect key="frame" x="20" y="10" width="221" height="95"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart-product" translatesAutoresizingMaskIntoConstraints="NO" id="HvL-z5-PLz">
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="95" id="Dr2-h6-tQX"/>
+                                            <constraint firstAttribute="width" constant="95" id="ZGV-AC-qJJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0kE-zz-t64">
+                                        <rect key="frame" x="115" y="27" width="106" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7A-xr-RVT">
+                                                <rect key="frame" x="0.0" y="0.0" width="106" height="19"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <color key="textColor" name="DefaultBlack"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VlF-hN-RSv">
+                                                <rect key="frame" x="0.0" y="27" width="106" height="14"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ssx-Gi-LlE">
+                                <rect key="frame" x="396" y="25" width="72" height="84"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ruL-R2-74B">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMV-S1-KPR">
+                                                <rect key="frame" x="0.0" y="0.0" width="39" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="sMM-AX-VAJ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <color key="textColor" name="GrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="WXr-zZ-teF">
+                                                <rect key="frame" x="0.0" y="18" width="72" height="12"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating-filled" translatesAutoresizingMaskIntoConstraints="NO" id="Lr3-cA-RiW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="12" id="vFF-Xd-KEl"/>
+                                                            <constraint firstAttribute="width" constant="12" id="wLo-HB-gGM"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating-filled" translatesAutoresizingMaskIntoConstraints="NO" id="zrd-Er-gVh">
+                                                        <rect key="frame" x="15" y="0.0" width="12" height="12"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="12" id="Lhh-gc-uy6"/>
+                                                            <constraint firstAttribute="width" constant="12" id="VSq-vK-9iF"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating-filled" translatesAutoresizingMaskIntoConstraints="NO" id="uDH-Ew-BPm">
+                                                        <rect key="frame" x="30" y="0.0" width="12" height="12"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="12" id="2Tq-zr-ymu"/>
+                                                            <constraint firstAttribute="width" constant="12" id="8EZ-CU-Y2M"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating-filled" translatesAutoresizingMaskIntoConstraints="NO" id="9q3-S9-6EO">
+                                                        <rect key="frame" x="45" y="0.0" width="12" height="12"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="12" id="1NV-TP-p69"/>
+                                                            <constraint firstAttribute="height" constant="12" id="vUD-tI-Thy"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rating-filled" translatesAutoresizingMaskIntoConstraints="NO" id="vZs-H2-tFx">
+                                                        <rect key="frame" x="60" y="0.0" width="12" height="12"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="12" id="FaB-S2-G6N"/>
+                                                            <constraint firstAttribute="height" constant="12" id="Oeg-Sy-Rez"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qs2-hn-Sy7">
+                                        <rect key="frame" x="0.0" y="55" width="40.5" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="QSc-Rr-LBL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                        <color key="textColor" name="DefaultBlack"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWy-Hl-5gA" customClass="IBButtonClass" customModule="Eco_carwash_Drive" customModuleProvider="target">
+                                <rect key="frame" x="135" y="82.5" width="101" height="24"/>
+                                <color key="backgroundColor" name="SecondaryColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="0Pt-35-Ip6"/>
+                                    <constraint firstAttribute="width" constant="101" id="VHI-U8-ARR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="  Buy now" image="cart-buy-now"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRad">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="ShadowObjColor">
+                                        <color key="value" name="GrayColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="ShadowObjColor">
+                                        <color key="value" name="DefaultBlack"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="ShadowShadOff">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRad">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ShadowShadOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ssx-Gi-LlE" secondAttribute="bottom" constant="25" id="EO8-u5-MuK"/>
+                            <constraint firstItem="ssx-Gi-LlE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pX8-bJ-hUm" secondAttribute="trailing" constant="10" id="K5H-AL-zEv"/>
+                            <constraint firstAttribute="trailing" secondItem="ssx-Gi-LlE" secondAttribute="trailing" constant="20" id="Kfo-UL-SLm"/>
+                            <constraint firstItem="dWy-Hl-5gA" firstAttribute="leading" secondItem="0kE-zz-t64" secondAttribute="leading" id="bjX-7J-3od"/>
+                            <constraint firstItem="ssx-Gi-LlE" firstAttribute="top" secondItem="hBX-5i-bnQ" secondAttribute="top" constant="25" id="rn1-PL-8bm"/>
+                            <constraint firstItem="pX8-bJ-hUm" firstAttribute="leading" secondItem="hBX-5i-bnQ" secondAttribute="leading" constant="20" id="xDs-cm-5ZS"/>
+                            <constraint firstItem="dWy-Hl-5gA" firstAttribute="centerY" secondItem="qs2-hn-Sy7" secondAttribute="centerY" id="xj7-1d-oiO"/>
+                            <constraint firstItem="pX8-bJ-hUm" firstAttribute="top" secondItem="hBX-5i-bnQ" secondAttribute="top" constant="10" id="zjs-8y-tsQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.015686274510000001" green="0.16078431369999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="hBX-5i-bnQ" secondAttribute="trailing" id="KwD-15-m3h"/>
+                    <constraint firstAttribute="bottom" secondItem="hBX-5i-bnQ" secondAttribute="bottom" constant="10" id="Ub9-J6-iPP"/>
+                    <constraint firstItem="hBX-5i-bnQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aHb-as-NLM"/>
+                    <constraint firstItem="hBX-5i-bnQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="dZu-kg-Umc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="259.4202898550725" y="145.3125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cart-buy-now" width="13.5" height="13"/>
+        <image name="cart-product" width="94" height="94"/>
+        <image name="rating-filled" width="13" height="12"/>
+        <namedColor name="DefaultBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GrayColor">
+            <color red="0.70588235294117652" green="0.70588235294117652" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SecondaryColor">
+            <color red="0.42352941176470588" green="0.87450980392156863" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

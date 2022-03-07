@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>706589683436-fohneci80n9fcf2nickaildvc134gn62.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.706589683436-fohneci80n9fcf2nickaildvc134gn62</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDHVetiVzAQhN_0yxU387s9S0ZJX2Q1OF8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>706589683436</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.eternosoft.ecocarwashdrive</string>
+	<key>PROJECT_ID</key>
+	<string>eco-carwash-service</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eco-carwash-service.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:706589683436:ios:15bbb60474c9a9960a7fc9</string>
+	<key>DATABASE_URL</key>
+	<string>https://eco-carwash-service-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

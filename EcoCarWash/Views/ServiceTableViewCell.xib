@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServiceTableViewCell" rowHeight="83" id="KGk-i7-Jjw" customClass="ServiceTableViewCell" customModule="Eco_carwash_Drive" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="83"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJh-y0-h5A">
+                        <rect key="frame" x="0.0" y="5" width="379" height="30"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="TZb-0C-IBd">
+                                <rect key="frame" x="5" y="5" width="369" height="20"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNg-a9-ZVl" customClass="BEMCheckBox">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <color key="backgroundColor" name="DefaultWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="Zr6-jX-lFV"/>
+                                            <constraint firstAttribute="height" constant="20" id="o2a-Ie-SuS"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="onCheckColor">
+                                                <color key="value" name="MainColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="onTintColor">
+                                                <color key="value" name="MainColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="animationDuration">
+                                                <real key="value" value="0.10000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="checkBoxAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wKI-yf-Ffe"/>
+                                        </connections>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eU5-Qf-eaM">
+                                        <rect key="frame" x="36" y="0.0" width="333" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fabric cleaning / CHF 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcg-9w-gqC">
+                                                <rect key="frame" x="0.0" y="0.0" width="268" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 mins" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpJ-q9-C94">
+                                                <rect key="frame" x="273" y="0.0" width="60" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="7qs-iv-sxS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TZb-0C-IBd" firstAttribute="leading" secondItem="bJh-y0-h5A" secondAttribute="leading" constant="5" id="1oo-iA-Evg"/>
+                            <constraint firstItem="TZb-0C-IBd" firstAttribute="centerY" secondItem="bJh-y0-h5A" secondAttribute="centerY" id="L9w-ry-c2a"/>
+                            <constraint firstItem="TZb-0C-IBd" firstAttribute="top" secondItem="bJh-y0-h5A" secondAttribute="top" constant="5" id="OwZ-sZ-Bzu"/>
+                            <constraint firstAttribute="trailing" secondItem="TZb-0C-IBd" secondAttribute="trailing" constant="5" id="TUz-Y4-VWA"/>
+                            <constraint firstItem="TZb-0C-IBd" firstAttribute="centerX" secondItem="bJh-y0-h5A" secondAttribute="centerX" id="Ur1-8F-jbe"/>
+                            <constraint firstAttribute="bottom" secondItem="TZb-0C-IBd" secondAttribute="bottom" constant="5" id="rtL-8M-kYC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bJh-y0-h5A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7zS-5a-3RU"/>
+                    <constraint firstAttribute="trailing" secondItem="bJh-y0-h5A" secondAttribute="trailing" id="MX7-My-k5f"/>
+                    <constraint firstItem="bJh-y0-h5A" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="h3D-Ys-7Gh"/>
+                    <constraint firstAttribute="bottom" secondItem="bJh-y0-h5A" secondAttribute="bottom" constant="5" id="qtg-k5-iHf"/>
+                    <constraint firstItem="bJh-y0-h5A" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="rdi-73-JIm"/>
+                    <constraint firstItem="bJh-y0-h5A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="v0E-ph-7lO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkBox" destination="MNg-a9-ZVl" id="uY9-z4-ETr"/>
+                <outlet property="serviceTitleLbl" destination="tcg-9w-gqC" id="8SE-i7-11c"/>
+                <outlet property="timeTakenLbl" destination="bpJ-q9-C94" id="T6p-7S-ANA"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="108.81696428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DefaultWhite">
+            <color red="0.98431372549019602" green="0.98431372549019602" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainColor">
+            <color red="0.015686274509803921" green="0.16078431372549021" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
